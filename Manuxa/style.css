@@ -187,3 +187,50 @@ font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	    background-color: #4096B6;
 	
 }
+
+/* Prøv Manuxa siden */
+
+.flexpro {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	flex-shrink: 1;
+}
+
+.storboks {
+	order: 1;
+	width: 681px;
+	height: 500px;
+	border-right-width: 3px;
+	border-right-style: dotted;
+}
+
+.storboks2 {
+	order: 2;
+	width: 681px;
+	height: 500px;
+	
+}
+
+.understreget {
+	text-decoration: underline;
+}
+.ovs {
+	font-weight: bold;
+	font-size: large;
+}
+#roedskrift {
+	color: #FF0004;
+	font-weight: bold;
+	margin-left: 100px;
+}
+
+/*Unik footer til prøv manuxa siden */
+.footer2 {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #4096B6;
+	height: 100px;
+	}
