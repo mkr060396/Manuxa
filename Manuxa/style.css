@@ -109,8 +109,11 @@ font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	bottom: 0;
 	width: 100%;
 	background: #4096B6;
-	height: 100px;
+	height: 120px;
 	margin-top: 30px;
+	color:white;
+	
+	
 }
 
 .active {color: black}
@@ -228,11 +231,13 @@ font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 
 /*Unik footer til prøv manuxa siden */
 .footer2 {
-	left: 0;
+left: 0;
 	bottom: 0;
 	width: 100%;
 	background: #4096B6;
 	height: 100px;
+	margin-top: 30px;
+	color:white;
 	}
 
 /*Kontaktformular*/
@@ -272,4 +277,14 @@ input[type=submit]:hover {
 	font-weight: 400;
 	margin-left: 40px;
 	margin-right: 40px;
+}
+
+p1 {
+text-align: right;	
+	
+}
+/*API til map style */
+#map {
+	height: 499px;
+	width: 100%;
 }
