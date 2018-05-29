@@ -2,7 +2,7 @@
 /*Body og html regler*/
 body,html {
 	height:100%;
-	width: 1366px;
+	width: 1362px;
 	margin: 0 auto;
 	display: inline-block
 }
@@ -32,29 +32,36 @@ padding-bottom: 2%;
 padding-top:2%;	
 }
 
-/* Logo i venstre hjørne*/
-#logo {
-width: 20%;
-height: 20%;
-	
+/* Logo og knapper øverst*/
+.Toplinje {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+#logo2 {
+	order: 1;
+}
+.ikon {
+	order: 3;
+}
+#hojtaler {
+	width: 70px;
+	height: 70px;
+}
+#Tekst {
+	width: 70px;
+	height: 70px;
 }
 
-	
-
-
-/* Knapperne i højre hjørne*/
-.knapper {
-	width: 15%;
-	height: 10%;
-	margin-left: 90%;
-	margin-top: -40px;
-}
+/*forside billed */
+#gap {display: block}
 
 /* Overskrifter*/
 
 h1{
 text-align: center;
-margin-top: 5%;	
 }
 
 /* Brødtekst*/
@@ -65,3 +72,41 @@ font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 }
 
 
+/* Kasser */
+.kasser {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between
+}
+.kass1 {
+	order: 1;
+	width: 420px;
+	height: 350px;
+	border-radius: 25px;
+	background-color: #4096B6;
+}
+.kass2 {
+	order: 2;
+	width: 420px;
+	height: 350px;
+	border-radius: 25px;
+	background-color: #7fb905;
+}
+.kass3 {
+	order: 3;
+	width: 420px;
+	height: 350px;
+	border-radius: 25px;
+	background-color: #4096B6;
+}
+
+/* Footer */
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #4096B6;
+	height: 100px;
+	margin-top: 30px;
+}
