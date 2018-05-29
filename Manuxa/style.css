@@ -17,12 +17,14 @@ padding-top:2%;
 
 /* Selve linksne i navigationsbaren - mangler fonten "Alte haas" */
 
-a {	
-color: white;
-text-decoration: none;
-margin-right: 1%;
-margin-left: 2%;
-padding-left: 5%;		
+a {
+	color: white;
+	text-decoration: none;
+	margin-right: 1%;
+	margin-left: 1%;
+	padding-left: 6%;
+	font-weight: bold;
+	font-size: large;
 }
 
 /*Farveskift når man hover over links i navigationsbaren */
@@ -109,4 +111,79 @@ font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	background: #4096B6;
 	height: 100px;
 	margin-top: 30px;
+}
+
+.active {color: black}
+
+/*fælleskabs bokse*/
+
+.flexnyh {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 45px;
+	margin-top: 45px;
+}
+
+.flexnyh2 {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+
+.boks1 {
+	order: 1;
+    width: 420px;
+	height: 350px;
+	border-radius: 25px;
+	background-color: #4096B6;
+}
+
+.boks2 {
+	order: 2;
+	width: 420px;
+	height: 350px;
+	border-radius: 25px;
+	background-color: #4096B6;
+	
+}
+
+.boks3 {
+	order: 3;
+		width: 420px;
+	height: 350px;
+	border-radius: 25px;
+	background-color: #4096B6;
+	
+}
+
+.boks4 {
+	order: 1;
+	width: 420px;
+	height: 350px;
+	border-radius: 25px;
+	background-color: #4096B6;
+}
+
+.boks5 {
+	order: 2;
+	width: 420px;
+	height: 350px;
+	border-radius: 25px;
+	background-color: #4096B6;
+	
+}
+
+.boks6 {
+	order: 3;
+		width: 420px;
+	    height: 350px;
+	    border-radius: 25px;
+	    background-color: #4096B6;
+	
 }
