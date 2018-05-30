@@ -7,6 +7,12 @@ body,html {
 	display: inline-block
 }
 
+/* En hurtig brødtekst class class*/
+.rugbrod {
+	text-align: justify;
+	font-size: large;
+}
+
 /* Den blå kasse rundt i navigationsbaren*/
 .menu {
 background: #4096B6;
@@ -27,11 +33,17 @@ a {
 	font-size: large;
 }
 
+.linkclass {
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 0;
+	font-weight: normal;
+	font-size: normal;
+	color: black;
+}
 /*Farveskift når man hover over links i navigationsbaren */
 a:hover {
 color: black;
-padding-bottom: 2%;
-padding-top:2%;	
 }
 
 /* Logo og knapper øverst*/
