@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<meta description="Manuxa er et hjælpemiddel til folk med gigt og andre former for nedsat gribefunktion. Med Manuxa kan du få en lettere hverdag, hvor almindelige huspligter ikke bliver en udfordring, men en fornøjelse."/>
+<title>Manuxa - Kontakt Manuxa</title>
+</head>
+<body>
+
+<header>
+	<div class="Toplinje">
+	    <div id="logo2">
+	    <img src="images/logo.png" alt="Manuxa logo">
+	    </div>
+		<div class="ikon">
+	    <img id="hojtaler" src="images/speaker.png" alt="Højtaler"> 
+		<img id="Tekst" src="images/fontsize.png" alt="Tekststørrelse"> 
+		</div>
+	</div>
+		 
+	
+		<div class="menu">
+<ul>
+	
+  	<a  href="index.html">FORSIDE</a>
+  	<a href="faelleskab.html">FÆLLESSKAB</a>
+  	<a href="manuxa.html">PRØV MANUXA</a>
+  	<a href="video.html">INTRODUKTIONSVIDEO</a>
+  	<a class="active" href="kontakt.html">KONTAKT</a>	
+</ul>	
+	</div>	
+</header>
+
+	<h1> Kontakt Manuxa her</h1>
+    
+    <div class="flexpro">
+<div class="storboks">
+	<p class="ovs"> Kontaktinformationer </p>
+	<p>  73 70 90 92 </p>
+	<p> Jyllandsgade 30 </p>
+	<p> 6400 Sønderborg</p>
+	<div class="container">
+  <form action="/action_page.php">
+
+    <label for="subject">Eller skriv en E-mail til os her</label>
+    <textarea id="subject" name="subject" placeholder="Udfyld her" ></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</div>	
+<div class="storboks2">
+	<script> 
+		function initMap(){
+		var options = {
+		zoom:13,
+		center:{lat:54.92076, lng:9.818282}
+		}	
+		
+		var map = new google.maps.Map(document.getElementById('map'), options);
+		
+		
+		var marker = new google.maps.Marker({position:{lat:54.92076, lng:9.818282}, 
+		map:map,
+	    });
+		}
+	</script>
+	
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCq0lQUwGHC1q5EG87spldvil9rH6TlCNg&callback=initMap">
+    </script>
+
+	<div id="map"></div>
+</div>
+</div>
+
+    <div class="footer">
+    <br>
+	<p>Manuxa ApS
+    <br>
+     Jyllandsgade 30
+     <br>
+     6400 Sønderborg
+     <br>
+     73 70 90 92</p>
+	</div>
+
+</body>
+
+</html>
+
