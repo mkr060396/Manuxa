@@ -288,3 +288,41 @@ text-align: right;
 	height: 499px;
 	width: 100%;
 }
+
+/*Videosiden*/
+
+.vhs {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	}
+.dvd{
+	width: 560px;
+	height: 315px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.bluray{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	justify-content: space-around;
+    margin-top: 20px}
+.vboks1 {
+	order: 1;
+	
+	
+}
+.vboks2 {
+	order: 2;
+}
+.vboks3 {
+	order: 3;
+}
+
+.test1 {
+	overflow: hidden;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
